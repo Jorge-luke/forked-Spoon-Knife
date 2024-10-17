@@ -1,0 +1,91 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  flex: auto;
+  align-items: center;
+  padding: 8px;
+  flex: 1;
+
+}
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+button {
+    display: flex;
+    align-items: center;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  height: 20px;
+  padding: 15px;
+  text-wrap: nowrap;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  text-wrap: ;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-wrap: nowrap;
+    
+}
+
+.left{
+    gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.right{
+    display: flex;
+    flex: 1 1 1;
+    justify-content: end;
+    align-items: center;
+
+}
